@@ -1,0 +1,17 @@
+.cardWrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.cardWrapper {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0.3s, background-color 0.3s ease;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 6%;
+}
+
+.cardWrapper:hover {
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 1);
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.6);
+}
